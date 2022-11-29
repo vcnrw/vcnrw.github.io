@@ -8,14 +8,23 @@ comments: false
 <img style="float: left; width: 250px; margin-right: 30px;" src="{{ site.url }}{{ community.picture | relative_url }}" alt="{{ community.display_name }}">Hi, this is VCBAWUE
 
 <div class="social-button-member">
-{% if community.linkedin %}
-<a style="text-decoration: none;" href="{{community.linkedin}}" target="_blank"><img class="community-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/027-linkedin.png" alt="linkedin"></a>
-{% endif %}
 
-{% if community.twitter %}
-<a style="text-decoration: none;" href="{{community.twitter}}" target="_blank"><img class="community-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/008-twitter.png" alt="twitter"></a>
-{% endif %}
+    {% if community.linkedin %}
 
-{% if community.web %}
-<a style="text-decoration: none;" href="{{community.web}}" target="_blank"><img class="community-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/030-html-5.png" alt="website"></a>
-{% endif %}
+        <a style="text-decoration: none;" href="{{community.linkedin}}" target="_blank"><img class="community-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/027-linkedin.png" alt="linkedin"></a>
+
+    {% endif %}
+
+    {% if community.twitter %}
+
+        <a style="text-decoration: none;" href="{{community.twitter}}" target="_blank"><img class="community-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/008-twitter.png" alt="twitter"></a>
+
+    {% endif %}
+
+    {% if community.web %}
+
+        <a style="text-decoration: none;" href="{{community.web}}" target="_blank"><img class="community-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/030-html-5.png" alt="website"></a>
+
+    {% endif %}
+
+</div>
