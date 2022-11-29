@@ -66,16 +66,20 @@ post_class: post-template
             <!-- Post Categories -->
             <div class="after-post-tags">
                     <ul class="tags">
+
                         {% assign sortedTags = page.tags | sort %}
-                        {% for tag in sortedTags %}
 
-                        {% if tag != "posts" and tag != "events" %}
+                            {% for tag in sortedTags %}
 
-                        <li>
-                            <div class="tag">{{ tag }}</div>
-                            <!-- <a href="{{ site.baseurl }}/category/{{ tag | slugify }}/">{{ tag }}</a> -->
-                        </li>
-                        {% endif %}
+                            {% if tag != "posts" and tag != "events" %}
+
+                                <li>
+
+                                    <div class="tag">{{ tag }}</div>
+                                    
+                                </li>
+
+                            {% endif %}
 
                         {% endfor %}
                     </ul>
@@ -89,7 +93,7 @@ post_class: post-template
              <!-- Author Box -->
                 {% if page.authors %}	
                     {% for page_author in page.authors %}
-                    
+
                         {% assign author = site.authors[page_author] %}
                         
                         <div class="row post-top-meta" >
