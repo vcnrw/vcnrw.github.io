@@ -6,7 +6,7 @@ comments: false
 {% assign community = site.communities['vcbawue'] %}
 
 <img style="float: left; width: 250px; margin-right: 30px;" src="{{ site.url }}{{ community.picture | relative_url }}" alt="{{ community.display_name }}">
-Hi! Wir sind {{community.name}}. Schaut mal auf unsere [Website]({{sponsor.web}}){:target="_blank"}!
+Hi! Wir sind {{community.name}}. Schaut mal auf unsere [Website]({{community.web}}){:target="_blank"}!
 
 <div class="social-button-member">
 
