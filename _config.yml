@@ -21,7 +21,6 @@ hosts:
     picture: 'assets/images/hosts/sven.jpg'
     twitter: https://twitter.com/jansvensen
     linkedin: https://www.linkedin.com/in/sven-jansen-b763b654/
-    github: https://github.com/dTSvenJansen
     page: sven-jansen
   carsten:
     name: Carsten 
@@ -30,8 +29,7 @@ hosts:
     title: Customer Success Engineer
     picture: 'assets/images/hosts/carsten.jpg'
     twitter: https://twitter.com/carstenbruns
-    linkedin: todo
-    github: todo
+    linkedin: https://www.linkedin.com/in/carsten-bruns/
     page: carsten-bruns
 
 # Speakers
@@ -68,6 +66,7 @@ speakers:
     picture: 'assets/images/speakers/thorsten-rood.jpg'
     twitter: https://twitter.com/ThorstenRood
     page: thorsten-rood
+    
 # Sponsors
 sponsors:
   VastLimits:
