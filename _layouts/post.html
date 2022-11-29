@@ -12,8 +12,8 @@ post_class: post-template
 
 		<!-- Post -->               
 		<div class="col-sm-8">
-			<div class="mainheading">              
-                
+
+			<div class="mainheading"> 
                 
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1> 
@@ -88,50 +88,51 @@ post_class: post-template
             <!-- share -->
              <!-- Author Box -->
                 {% if page.authors %}	
-                {% for page_author in page.authors %}
-                {% assign author = site.authors[page_author] %}
-                
-				<div class="row post-top-meta" >
-                    <div class="author-box">
-
-                        <!-- image -->
-                        <div class="author-box-picture">
-                            <img class="author-box-picture-image" src="{{ site.baseurl }}/{{ author.picture }}" alt="{{ author.display_name }}">
-                        </div>
-
-                        <!-- name -->
-                        <div class="author-box-name">
-                            {{ author.display_name }}
-                        </div>
+                    {% for page_author in page.authors %}
+                    
+                        {% assign author = site.authors[page_author] %}
                         
-                        <!-- description -->
-                        <div class="author-box-description">
-                            {{ author.description }}
+                        <div class="row post-top-meta" >
+                            <div class="author-box">
+
+                                <!-- image -->
+                                <div class="author-box-picture">
+                                    <img class="author-box-picture-image" src="{{ site.baseurl }}/{{ author.picture }}" alt="{{ author.display_name }}">
+                                </div>
+
+                                <!-- name -->
+                                <div class="author-box-name">
+                                    {{ author.display_name }}
+                                </div>
+                                
+                                <!-- description -->
+                                <div class="author-box-description">
+                                    {{ author.description }}
+                                </div>
+
+                                <div class="author-box-clearfix"> </div>
+
+                                <div class="author-box-socials">
+                                    {% if author.linkedin %}
+                                    <a href="{{author.linkedin}}" target="_blank"><img class="author-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/027-linkedin.png" alt="linkedin"></a>
+                                    {% endif %}
+            
+                                    {% if author.twitter %}
+                                    <a href="{{author.twitter}}" target="_blank"><img class="author-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/008-twitter.png" alt="twitter"></a>
+                                    {% endif %}
+            
+                                    {% if author.web %}
+                                    <a href="{{author.web}}" target="_blank"><img class="author-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/030-html-5.png" alt="website"></a>
+                                    {% endif %}
+            
+                                    {% if author.github %}
+                                    <a href="{{author.github}}" target="_blank"><img class="author-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/050-github.png" alt="github"></a>
+                                    {% endif %}
+
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="author-box-clearfix"> </div>
-
-                        <div class="author-box-socials">
-                            {% if author.linkedin %}
-                            <a href="{{author.linkedin}}" target="_blank"><img class="author-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/027-linkedin.png" alt="linkedin"></a>
-                            {% endif %}
-    
-                            {% if author.twitter %}
-                            <a href="{{author.twitter}}" target="_blank"><img class="author-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/008-twitter.png" alt="twitter"></a>
-                            {% endif %}
-    
-                            {% if author.web %}
-                            <a href="{{author.web}}" target="_blank"><img class="author-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/030-html-5.png" alt="website"></a>
-                            {% endif %}
-    
-                            {% if author.github %}
-                            <a href="{{author.github}}" target="_blank"><img class="author-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/050-github.png" alt="github"></a>
-                            {% endif %}
-
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}				
+                    {% endfor %}				
                 {% endif %}
             
             <!-- Begin Comments
