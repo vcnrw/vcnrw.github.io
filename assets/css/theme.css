@@ -271,6 +271,7 @@ section.recent-posts {
 
 .author-box-socials-icon {
     width: 30px;
+    height: 30px;
     box-shadow: none;
     display: inline-block;
     margin: 3px;
