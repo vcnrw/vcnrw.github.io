@@ -98,21 +98,21 @@ communities:
     display_name: VCBAWUE
     picture: 'assets/images/communities/vcbawue.jpg'
     twitter: https://twitter.com/vcbawue
-    site: https://vcbawue.de/
+    web: https://vcbawue.de/
     page: vcbawue
   vcrmn:
     name: vcrmn 
     display_name: VCRMN
     picture: 'assets/images/communities/vcrmn.jpg'
     twitter: https://twitter.com/vcrmn_de
-    site: https://vcrmn.de/
+    web: https://vcrmn.de/
     page: vcrmn
   vcnds:
     name: vcnds 
     display_name: VCNDS
     picture: 'assets/images/communities/vcnds.jpg'
     twitter: https://twitter.com/vcnds
-    site: https://vcnds.de/
+    web: https://vcnds.de/
     page: vcnds
 
 # Plugins
