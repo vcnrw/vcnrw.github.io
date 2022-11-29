@@ -114,6 +114,21 @@ communities:
     twitter: https://twitter.com/vcnds
     web: https://vcnds.de/
     page: vcnds
+  goeuc:
+    name: goeuc 
+    display_name: 'GO:EUC'
+    picture: 'assets/images/communities/goeuc.png'
+    twitter: https://twitter.com/g0_euc
+    web: https://go-euc.com/
+    page: goeuc
+  e2evc:
+    name: e2evc 
+    display_name: e2evc
+    picture: 'assets/images/communities/e2evc.jpg'
+    twitter: https://twitter.com/e2evc
+    web: https://e2evc.com/
+    page: e2evc
+
 
 # Plugins
 plugins: 
