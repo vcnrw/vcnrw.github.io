@@ -11,19 +11,19 @@ comments: false
 
     {% if community.linkedin %}
 
-        <a style="text-decoration: none;" href="{{community.linkedin}}" target="_blank"><img class="community-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/027-linkedin.png" alt="linkedin"></a>
+        <a style="text-decoration: none;" href="{{community.linkedin}}" target="_blank"><img width="100" height="100" src="{{ site.baseurl }}/assets/images/social/027-linkedin.png" alt="linkedin"></a>
 
     {% endif %}
 
     {% if community.twitter %}
 
-        <a style="text-decoration: none;" href="{{community.twitter}}" target="_blank"><img class="community-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/008-twitter.png" alt="twitter"></a>
+        <a style="text-decoration: none;" href="{{community.twitter}}" target="_blank"><img width="100" height="100" src="{{ site.baseurl }}/assets/images/social/008-twitter.png" alt="twitter"></a>
 
     {% endif %}
 
     {% if community.web %}
 
-        <a style="text-decoration: none;" href="{{community.web}}" target="_blank"><img class="community-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/030-html-5.png" alt="website"></a>
+        <a style="text-decoration: none;" href="{{community.web}}" target="_blank"><img width="100" height="100" src="{{ site.baseurl }}/assets/images/social/030-html-5.png" alt="website"></a>
 
     {% endif %}
 

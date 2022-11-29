@@ -10,11 +10,15 @@ comments: false
 <div class="social-button-member">
 
     {% if host.linkedin %}
-        <a style="text-decoration: none;" href="{{host.linkedin}}" target="_blank"><img class="host-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/027-linkedin.png" alt="linkedin"></a>
+        
+        <a style="text-decoration: none;" href="{{host.linkedin}}" target="_blank"><width="100" height="100" src="{{ site.baseurl }}/assets/images/social/027-linkedin.png" alt="linkedin"></a>
+
     {% endif %}
 
     {% if host.twitter %}
-        <a style="text-decoration: none;" href="{{host.twitter}}" target="_blank"><img class="host-box-socials-icon" src="{{ site.baseurl }}/assets/images/social/008-twitter.png" alt="twitter"></a>
+
+        <a style="text-decoration: none;" href="{{host.twitter}}" target="_blank"><width="100" height="100" src="{{ site.baseurl }}/assets/images/social/008-twitter.png" alt="twitter"></a>
+        
     {% endif %}
 
 </div>
