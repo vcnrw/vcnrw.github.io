@@ -18,5 +18,3 @@ comments: false
     {% endif %}
 
 </div>
-
-{% include contributions.html name='sven' %}
