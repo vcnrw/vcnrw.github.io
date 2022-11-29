@@ -1,0 +1,48 @@
+<div class="sidebar">
+
+
+    <div class="sidebar-section">
+        <h5><span>VCNRW folgen</span></h5>
+        <div style="list-style: none; padding: 0px; margin: auto; padding: 10px">
+            <a href="https://twitter.com/vcnrw" target="_blank"><img class="follow-social-icon" src="{{site.baseurl}}/assets/images/social/008-twitter.png"></a>
+        </div>     
+    </div>
+
+       <div class="sidebar-section">
+            <h5><span>Sponsor werden?</span></h5>
+            <div>
+                VCNRW ist eine Non-Proft-Community. Unser einziger Zweck ist es, Menschen zusammenzubringen und über IT zu fachsimpeln. Wir sind hersteller-unabhängig und auch sonst nicht finanziert.<br>
+                Sponsoren helfen uns dabei, unsere Events ausrichten zu können. So können wir Speaker einladen und auch die eine oder andere Runde Bier ausgeben. Unsere Sponsoren erhalten die Möglichkeit, einen Sponsoren-Slot auf unserem Event zu übernehmen und werden auf der Webseite genannt.
+                 </br>
+                </br>
+                Interessiert? Gerne melden unter sponsoring@vcnrw.de
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <h5><span>Kommende Events</span></h5>
+
+
+            {% assign events = site.categories.events | sort: "eventdate" %}
+
+            {% for event in events %}
+                
+                {% assign today_date = 'now' | date: "%y %m %d" %}
+                {% assign event_date =  event.eventdate | date: "%y %m %d" %}
+
+                {% if event_date >= today_date %}
+                <a href="{{event.site}}" target="_blank"><div><img class="featured-image img-fluid" style="margin-bottom: 0px;" src="{{ site.baseurl }}/{{ event.image }}" alt="{{ event.title }}"></div>
+                <div>{{ event.title }}</div>
+                <div>{{ event.location }}</div>
+                <div style="margin-bottom: 10px;">{{ event.eventdate | date_to_string }}</div></a>
+                {% endif %} 
+                
+            {% endfor %}
+        </div>
+
+        <div class="sidebar-section">
+            <h5><span>VCNRW Tweets</span></h5>
+            <a class="twitter-timeline" data-width="380" data-height="1000" data-theme="light" href="https://twitter.com/vcnrw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+            
+</div>

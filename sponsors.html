@@ -1,0 +1,32 @@
+---
+layout: page
+title: Sposoren
+comments: false
+---
+<div>
+    <span>Als community sind wir immer Hersteller-unabhängig. Wir dürfen uns allerdings regelmäßig über Beiträge von Sponsoren freuen. Diese Beiträge zahlen Hotels und Anreisen für Speaker und auch die eine oder andere Runde Bier. </span>
+</div>
+<div>
+    <span>Diese Sponsoren haben uns bisher unterstützt. Wir freuen uns über jeden Weiteren!</span>
+</div>
+<div class="sponsor-container">
+
+    {% for sponsor in site.sponsors %}
+
+    {% assign name = sponsor[0] %}
+    {% assign info = site.sponsors[name] %}
+
+    <div class="sponsor-info-box">
+
+        <div>
+            <a style="box-shadow: none;" href="{{site.baseurl}}/sponsors/{{info.page}}"><img class="sponsor-box-logo" src="{{ site.baseurl }}/{{ info.logo }}" alt="{{ info.name }}">
+            </a>
+        </div>
+        <div>
+            <b>{{ info.name }}</b>
+        </div>   
+    </div>
+
+    {% endfor %}
+
+</div>

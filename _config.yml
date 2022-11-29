@@ -1,0 +1,128 @@
+# Site
+name: "VCNRW"
+title: "VCNRW"
+description: "Your friendly local virtulaization community"
+meta_description: "Your friendly local virtulaization community"
+logo: 'assets/images/logo-white.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 10
+baseurl: ''
+email: 'info@vcnrw.de'
+disqus: 'ict-r'
+permalink: /:title/
+
+# hosts
+hosts:
+  sven:
+    name: Sven 
+    display_name: Sven Jansen
+    company: deviceTRUST
+    title: Pre-Sales Manager
+    picture: 'assets/images/hosts/sven.jpg'
+    twitter: https://twitter.com/jansvensen
+    linkedin: https://www.linkedin.com/in/sven-jansen-b763b654/
+    github: https://github.com/dTSvenJansen
+    page: sven-jansen
+  carsten:
+    name: Carsten 
+    display_name: Carsten Bruns
+    company: Okta
+    title: Customer Success Engineer
+    picture: 'assets/images/hosts/carsten.jpg'
+    twitter: https://twitter.com/carstenbruns
+    linkedin: todo
+    github: todo
+    page: carsten-bruns
+
+# Speakers
+speakers:
+  esther:
+    name: Esther Barthel 
+    display_name: Esther Barthel
+    company: CognitionIT
+    title: Boss
+    picture: 'assets/images/speakers/esther-barthel.jpg'
+    twitter: https://twitter.com/virtuEs_IT
+    page: esther-barthel
+  marcel:
+    name: Marcel Meurer 
+    display_name: Marcel Meurer 
+    company: sepago GmbH
+    title: Division Manager Professional IT Services
+    picture: 'assets/images/speakers/marcel-meurer.jpg'
+    twitter: https://twitter.com/MarcelMeurer
+    page: marcel-meurer
+  david:
+    name: David O'Brien 
+    display_name: David O'Brien 
+    company: Argos
+    title: CEO
+    picture: 'assets/images/speakers/david-o-brien.jpg'
+    twitter: https://twitter.com/david_obrien
+    page: david-o-brien
+  thorsten:
+    name: Thorsten Rood 
+    display_name: Thorsten Rood 
+    company: Braincon
+    title: Brain
+    picture: 'assets/images/speakers/thorsten-rood.jpg'
+    twitter: https://twitter.com/ThorstenRood
+    page: thorsten-rood
+# Sponsors
+sponsors:
+  VastLimits:
+    name: VastLimits
+    level: 2
+    logo-light: 'assets/images/sponsors/VastLimits/logo-white.png'
+    logo: 'assets/images/sponsors/VastLimits/logo.png'
+    page: 'VastLimits'
+    site: 'https://www.VastLimits.com'
+  Argos:
+    name: Argos
+    level: 2
+    logo-light: 'assets/images/sponsors/Argos/logo-white.png'
+    logo: 'assets/images/sponsors/Argos/logo.png'
+    page: 'Argos'
+    site: 'https://www.Argos.com'
+  Igel:
+    name: Igel
+    level: 2
+    logo-light: 'assets/images/sponsors/Igel/logo.png'
+    logo: 'assets/images/sponsors/Igel/logo.png'
+    page: 'Igel'
+    site: 'https://www.Igel.de'
+
+# Communities
+communities:
+  vcbawue:
+    name: vcbawue 
+    display_name: VCBAWUE
+    picture: 'assets/images/communities/vcbawue.jpg'
+    twitter: https://twitter.com/vcbawue
+    site: https://vcbawue.de/
+    page: vcbawue
+  vcrmn:
+    name: vcrmn 
+    display_name: VCRMN
+    picture: 'assets/images/communities/vcrmn.jpg'
+    twitter: https://twitter.com/vcrmn
+    site: https://vcrmn.de/
+    page: vcrmn
+  vcnds:
+    name: vcnds 
+    display_name: VCNDS
+    picture: 'assets/images/communities/vcnds.jpg'
+    twitter: https://twitter.com/vcnds
+    site: https://vcnds.de/
+    page: vcnds
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Other
+markdown: kramdown
+highlighter: rouge
