@@ -66,7 +66,24 @@ speakers:
     picture: 'assets/images/speakers/thorsten-rood.jpg'
     twitter: https://twitter.com/ThorstenRood
     page: thorsten-rood
-    
+  alex:
+    name: Alex Benoit
+    display_name: Alex Benoit
+    company: dinext. pi-sec GmbH
+    title: CEO
+    picture: 'assets/images/speakers/alex-benoit.jpg'
+    twitter: https://twitter.com/ITPirate
+    page: alex-benoit
+  stephan:
+    name: Stephan Gerling
+    display_name: Stephan Gerling
+    # company: Stephan Gerling
+    title: Hacker, Nerd, Firefighter
+    picture: 'assets/images/speakers/stephan-gerling.jpg'
+    twitter: https://twitter.com/obiwan666
+    github: https://github.com/obiwan666
+    page: stephan-gerling
+         
 # Sponsors
 sponsors:
   VastLimits:
