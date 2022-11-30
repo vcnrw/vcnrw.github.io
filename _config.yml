@@ -77,7 +77,7 @@ speakers:
   stephan:
     name: Stephan Gerling
     display_name: Stephan Gerling
-    # company: Stephan Gerling
+    company: Stephan Gerling
     title: Hacker, Nerd, Firefighter
     picture: 'assets/images/speakers/stephan-gerling.jpg'
     twitter: https://twitter.com/obiwan666
