@@ -17,8 +17,15 @@ title: Home
         <div class="masonrygrid row listrecent">
 
             {% for post in paginator.posts %}
-         
-            {% include postbox.html %}
+
+            {% if post.categories contains "posts" %}
+            
+            {% if post.hidden == false %}
+                {% include postbox.html %}
+            {% endif %}
+
+
+            {% endif %}
 
             {% endfor %}
 
