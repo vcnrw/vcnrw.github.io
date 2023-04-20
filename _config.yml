@@ -107,6 +107,13 @@ sponsors:
     logo: 'assets/images/sponsors/Igel/logo.png'
     page: 'Igel'
     site: 'https://www.Igel.de'
+  Bitdefender:
+    name: Bitdefender
+    level: 2
+    logo-light: 'assets/images/sponsors/Bitdefender/logo.png'
+    logo: 'assets/images/sponsors/Bitdefender/logo.png'
+    page: 'Bitdefender'
+    site: 'https://www.Bitdefender.de'
 
 # Communities
 communities:
