@@ -83,7 +83,16 @@ speakers:
     twitter: https://twitter.com/obiwan666
     github: https://github.com/obiwan666
     page: stephan-gerling
-         
+  sinisa:
+    name: Sinisa Sokolic
+    display_name: Sinisa Sokolic
+    company: RIS Consulting and XOAP
+    title: CEO
+    picture: 'assets/images/speakers/sinisa-sokolic.jpg'
+    twitter: https://twitter.com/sinisasokolic
+    github: https://github.com/ssokolic
+    page: sinisa-sokolic
+
 # Sponsors
 sponsors:
   VastLimits:
